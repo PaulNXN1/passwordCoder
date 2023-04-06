@@ -2,14 +2,18 @@
 var generateBtn = document.querySelector("#generate");
 
 
+// Variable to denote all characters that are used for the password. 
+
 var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 var specialChar = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "<", ">", "?","{", "}"]; 
+
 var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 
+// First message when entering live site. 
 
 alert("Welcome to Password Generator. Please click on Generate Password!");
 
@@ -27,6 +31,7 @@ function writePassword() {
 
 generateBtn.addEventListener("click", writePassword);
 
+// Function  with all conditional statements
 
 function generatePassword() {
    
@@ -45,12 +50,16 @@ function generatePassword() {
         
     }
 
-    var conf1 = confirm("Would you like CAPITAL LETTERS?");
+    // Created variables that prompts to the user 
+
+    var conf1 = confirm("Would you like CAPITAL LETTERS in your password?");
     var conf2 = confirm("Would you like numbers in your password?");
     var conf3 = confirm("Would you like special characters in your password?");
     var conf4 = confirm("Would you like lowercase letters in your password?");
   
     // These are the password conditions 
+
+    // First condition - all false, resulting in alert // 
 
     if (conf1 === false && conf2 === false && conf3 === false && conf4 === false) {
         alert("How can you have a password then?")
@@ -78,7 +87,7 @@ function generatePassword() {
         mainArray = mainArray.concat(lowerCase);
     }
 
-    // Combine x amount of character sets to one, large array 
+    // Combine "x" amount of character sets to one, large array 
 
     var finalArray = [];
 
