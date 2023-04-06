@@ -1,6 +1,7 @@
 🏗️ passwordCoder   
 
-Description
+Description:
+<br>
 For the third homework assignment, or submission, the student was given pre-written HTML and CSS code in order to code a password generator program that results in creating a random password with JavaScript.  JavaScript was the main assignment; no changes needed to be added to the HTML and CSS.  The results will publish a live site allowing the user to answer the following criteria to create the password:
 
 1. Use of capital letters.
