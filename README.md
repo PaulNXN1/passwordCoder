@@ -20,4 +20,7 @@ Acceptance Criteria
 The assignment is complete when all aspects of the UPENN Module #3 Acceptance Criteria points are met.
 
 Assets
-N/A
+N/A!
+
+Below is an image example showing the first prompt to the user. 
+[imgGenPassword](https://user-images.githubusercontent.com/84299358/230257972-2dedf886-56c1-4c24-af94-78a82bd1af79.png)
