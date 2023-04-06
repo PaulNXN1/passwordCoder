@@ -15,14 +15,17 @@ For the third homework assignment, or submission, the student was given pre-writ
 <br>
 The project was completed by each student. This was completed by Paul Nixon. 
 
-User Story
+<h1> User Story: </h1>
+<br>
 A pre-written HTML & CSS file were provided. The assignment is to create a randon password generator.  
 
-Acceptance Criteria
+<h1> Acceptance Criteria: </h1>
+<br>
 The assignment is complete when all aspects of the UPENN Module #3 Acceptance Criteria points are met.
 
-Assets
+<h1> Assets: </h1>
 N/A!
 
-Below is an image example showing the first prompt to the user. 
+Below is an image example showing the first prompt to the user. <br><br>
+
 [imgGenPassword](https://user-images.githubusercontent.com/84299358/230257972-2dedf886-56c1-4c24-af94-78a82bd1af79.png)
