@@ -31,3 +31,8 @@ Below is an example image of the final project:
 
 
 URL to Deployed Project Site:
+
+
+Below is an image example of the final project:
+
+![ReadME-info](./assets/imgGenPassword.png)
